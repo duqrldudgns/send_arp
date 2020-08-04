@@ -13,7 +13,7 @@ struct EthArpPacket {
 #pragma pack(pop)
 
 extern char local_ip[16];
-extern u_char local_mac[6];
+extern Mac local_mac;
 
 void GetLocalAddr(char *dev, const char *hw);
 
